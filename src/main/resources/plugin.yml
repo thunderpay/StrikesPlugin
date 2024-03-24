@@ -1,0 +1,9 @@
+name: StrikesPlugin
+version: 1.0
+main: com.thunderpay.strikes.StrikesPlugin
+author: thunderpay
+description: Plugin para gestionar strikes en facciones
+commands:
+  strikes:
+    description: Administra los strikes de las facciones
+    usage: /strikes <add|remove> <nombre_facción>
